@@ -1,0 +1,13 @@
+{
+  "name": "miniprogram",
+  "version": "0.0.0",
+  "scripts": {
+    "compile": "./node_modules/typescript/bin/tsc",
+    "watch": "./node_modules/typescript/bin/tsc --watch",
+    "tsc": "node ./node_modules/typescript/lib/tsc.js"
+  },
+  "devDependencies": {
+    "miniprogram-api-typings": "^2.6.5-1",
+    "typescript": "^3.3.3333"
+  }
+}

@@ -1,0 +1,30 @@
+{
+	"description": "微信小程序项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"miniprogramRoot": "src/",
+	"compileType": "miniprogram",
+	"libVersion": "2.6.6",
+	"projectname": "miniprogram",
+	"scripts": {
+		"beforeCompile": "npm run tsc",
+		"beforePreview": "npm run tsc",
+		"beforeUpload": "npm run tsc"
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"nodeModules": true,
+		"autoAudits": false,
+		"uglifyFileName": true,
+		"checkInvalidKey": true
+	},
+	"appid": "wxe967bd43b2e3b7e2",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {}
+}

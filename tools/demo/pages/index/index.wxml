@@ -1,0 +1,4 @@
+<navbar title="首页" back="{{true}}" home="{{true}}" background-color="red"></navbar>
+<view style="background-color: #fff">
+测试
+</view>

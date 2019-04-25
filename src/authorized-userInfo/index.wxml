@@ -1,0 +1,14 @@
+<view hidden="{{!(showAuthModal && (!hasUserInfo && canIUse))}}">
+  <view class='mask_layer' bindtap='modal_click_Hidden' />
+  <view class='modal_box'>
+    <view class='content'>
+      <view>{{content}}</view>
+    </view>
+    <view class='btns'>
+      <button wx:if="{{canIUse}}" class='sure' bindtap="hideAuthModal" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+        好的
+      </button>
+      <view wx:else>请升级微信版本</view>
+    </view>
+  </view>
+</view>
